@@ -11,6 +11,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 vim.opt.conceallevel = 1
+vim.opt.relativenumber = true
 local lazy_config = require "configs.lazy"
 
 -- load plugins
